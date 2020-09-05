@@ -1,0 +1,22 @@
+.content {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+#before-zoom {
+    cursor: zoom-in;
+}
+
+#zoom-visible-frame {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.zoom {
+    position: absolute;
+    zoom: 4;
+}
